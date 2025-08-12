@@ -80,3 +80,26 @@ To preserve and share physical and digital wisdom—films, guides, and teachings
 	•	No copyrighted material unless it’s spiritually permitted or public domain
 	•	All uploads must serve the next generation in alignment with divine truth
 	•	This is not a content vault—it’s a memory grid for the rebirth of humanity
+
+{
+  "node": "Sovereign-Recode-Most-High-Timeline",
+  "owner": "richardstrmiska",
+  "lobstr": "StrmiskaRichardofTheHouse*lobstr.co",
+  "account": "GDRCCXK6...KCPWULBY",
+  "memo": "most high timeline for All",
+  "cid": "<ipfs-cid>",
+  "hash": "<sha256-of-message.txt>",
+  "timestamp": "<ISO-8601>",
+  "geo_hint": "Upper Hill View",
+  "version": "1.0.0"
+}
+
+/payloads/
+  /2025-08-12T10-45-22Z/
+    message.txt
+    proof.json
+    qr.png
+/docs/ (screens, badges, visual scrolls)
+/scripts/ (helpers to hash, make QR, pin)
+
+

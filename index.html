@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sovereign Restoration Command Center</title>
+<link rel="stylesheet" href="./assets/styles.css">
+<script defer src="./assets/app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Most High — Sovereign Restoration Command Center</h1>
+    <p class="lead">A public, verifiable, Stellar‑wide proof hub. Track the 7‑layer sovereignty stack, see what tracks you on the legacy web, and verify every artifact on IPFS, GitHub, Stellar, and social witness layers.</p>
+    <div>
+      <span class="badge">Stellar • Lobstr</span>
+      <span class="badge">DID • IPFS • Web3.Storage</span>
+      <span class="badge">GitHub Commits</span>
+      <span class="badge">Brave Shields</span>
+      <span class="badge">Proton Mail</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>7‑Layer Map</h2>
+      <p class="lead">This is the blueprint anyone can follow to reclaim and verify.</p>
+      <img src="./img/seven_layer_map.png" alt="Seven Layer Sovereign Restoration Map">
+      <p class="notice">Tip: Add this page’s IPFS CID to your <kbd>.brave</kbd> domain. Every update becomes a new immutable version.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Live Privacy Wall</h2>
+        <p>Brave Shields protect you from the panopticon. Publish weekly screenshots or stats here to show what’s being blocked.</p>
+        <ul>
+          <li>Most frequent trackers (e.g., <code>googletagmanager.com</code>, <code>amazon-adsystem.com</code>)</li>
+          <li>Per‑site blocks and totals</li>
+          <li>How to enable Shields for others</li>
+        </ul>
+        <a class="btn" href="#" aria-disabled="true">Add your latest screenshot → replace in /img</a>
+      </div>
+
+      <div class="card">
+        <h2>Master Verification Ledger</h2>
+        <p>Every DID key and space mapped to human‑readable titles with proof locations.</p>
+        <div id="ledger-fallback" class="notice" style="display:none">CSV not found. Upload <code>/data/ledger.csv</code> to enable the live table.</div>
+        <table id="ledger-table" style="display:none">
+          <thead id="ledger-head"></thead>
+          <tbody id="ledger-body"></tbody>
+        </table>
+        <p><a class="btn" href="./data/ledger.csv">Download ledger CSV</a></p>
+      </div>
+
+      <div class="card">
+        <h2>Proof Chain Links</h2>
+        <ul>
+          <li>GitHub: add repo/branch links here</li>
+          <li>IPFS: add latest CIDs (journal, images, scrolls)</li>
+          <li>Stellar: key account and recent tx hashes</li>
+          <li>Proton Mail: mail-to link for witness inbox</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>How to Replicate (For Anyone)</h2>
+      <ol>
+        <li>Create artifacts (PDFs/images) → seal with QR to your ledger.</li>
+        <li>Pin to IPFS via Web3.Storage → record CIDs.</li>
+        <li>Commit to GitHub with CID references.</li>
+        <li>Optionally memo a Stellar tx with a short intent + CID.</li>
+        <li>Post to a public witness layer (social / website).</li>
+        <li>Repeat and append to ledger.</li>
+      </ol>
+    </section>
+  
+    <section class="card">
+      <h2>Live Claimable Balances Dashboard</h2>
+      <p>See native Stellar micro‑contracts created or claimable by your account, in real time.</p>
+      <a class="btn" href="./balances.html">Open Dashboard →</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© Most High Timeline • Publish this folder to IPFS and point your <kbd>.brave</kbd> domain at the CID.</p>
+  </footer>
+</body>
+</html>

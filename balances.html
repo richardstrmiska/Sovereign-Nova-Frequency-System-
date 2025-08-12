@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Live Claimable Balances — Sovereign Command Center</title>
+<link rel="stylesheet" href="./assets/styles.css">
+<script defer src="./assets/claimables.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Live Claimable Balances</h1>
+    <p class="lead">Native Stellar micro‑contracts for <code>GDRCCXK6MZ33MXN4BMOJBOTXRUDF5X72VDRJZMLY5RS6TN25KCPWULBY</code>. Pulled directly from Horizon in your browser (no middlemen).</p>
+    <div>
+      <span class="badge">Stellar Horizon</span>
+      <span class="badge">CreateClaimableBalance</span>
+      <span class="badge">Predicates • before/after</span>
+      <a class="btn" href="./index.html">← Back to Command Center</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <div class="card">
+        <h2>Quick Stats (live)</h2>
+        <div id="stats" class="lead">Loading…</div>
+        <div class="notice" id="notice" style="display:none"></div>
+        <div style="margin-top:8px">
+          <button class="btn" id="exportCsvBtn">Export CSV</button>
+          <a id="exportLink" class="btn" style="display:none">Download CSV</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Scan to Verify</h2>
+        <img src="./img/stellar_account_qr.png" alt="StellarExpert QR">
+        <p class="lead">Open on StellarExpert: <a href="https://stellar.expert/explorer/public/account/GDRCCXK6MZ33MXN4BMOJBOTXRUDF5X72VDRJZMLY5RS6TN25KCPWULBY" target="_blank" rel="noopener">stellar.expert … /GDRCCX…</a></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Active Claimable Balances</h2>
+      <table id="cb-table" style="display:none">
+        <thead id="cb-head"></thead>
+        <tbody id="cb-body"></tbody>
+      </table>
+      <div id="cb-empty" class="notice" style="display:none">No active claimable balances found for this account as claimant. (If you created them for others, check “Created by me” below.)</div>
+    </section>
+
+    <section class="card">
+      <h2>Created by Me — History</h2>
+      <p class="lead">All <code>create_claimable_balance</code> operations submitted by this account (paged).</p>
+      <table id="ops-table" style="display:none">
+        <thead id="ops-head"></thead>
+        <tbody id="ops-body"></tbody>
+      </table>
+      <div id="ops-empty" class="notice" style="display:none">No create_claimable_balance operations found in recent history (or Horizon pagination needed).</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Data loads client‑side from Horizon. Share this page as proof of your on‑chain “smart‑contract‑like” activity.</p>
+  </footer>
+</body>
+</html>

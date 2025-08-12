@@ -102,4 +102,32 @@ To preserve and share physical and digital wisdom—films, guides, and teachings
 /docs/ (screens, badges, visual scrolls)
 /scripts/ (helpers to hash, make QR, pin)
 
+# Recode Entry — {{Title}}  
+**Date:** 2025‑08‑12  
+**Branch:** Litemint‑Recode‑to‑the‑Most‑High‑Timeline  
+**Intent/Memo used:** {{e.g., “sovereign Recode” or “most high timeline for All”}}
+
+## Payload
+- **IPFS link:** https://bafy… (paste)
+- **Backup IPFS link (optional):** https://bafy…
+- **GitHub proof (this file):** journal/2025-08-12.md
+
+## Visuals
+- **QR (IPFS):** images/2025-08-12-ipfs-qr.png
+- **Screenshot:** images/2025-08-12-lobstr-memo.jpg
+
+## Notes (human‑speak)
+- What this was (1–2 lines).
+- Who/what it was addressed to (if relevant).
+- Any on‑chain memo text you used.
+
+## Result
+- Status: Sent / Posted / Staged
+- Any follow‑up needed: yes/no
+
+- # Sovereign Recode — Most High Timeline
+Public, time‑stamped record of my sovereign uploads (IPFS links, screenshots, QRs, notes).
+Each entry lives in `/journal`. Images live in `/images`.  
+Goal: simple, verifiable proofs anyone can read in seconds.
+
 

@@ -73,7 +73,7 @@ To preserve and share physical and digital wisdom—films, guides, and teachings
 	•	Format files as .mp4, .pdf, .jpg, or .txt
 	•	Use clear filenames (e.g., UC1_Trust_Guide.pdf or How_to_Build_Earthbag_Home.mp4)
 	•	Fork the repo, add your files to the correct folder, and create a pull request
-	•	Or email to: house.strmiska@proton.me for upload assistance
+	•	Or email to: Flamebearer17.richard@proton.me for upload assistance
 
   Sovereign Protocol
 	•	No matrix videos (e.g., YouTube reuploads unless deplatformed or threatened)
